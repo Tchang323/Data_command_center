@@ -1,0 +1,807 @@
+2025-03-18 10:53:46,518 - lightrag - INFO - Created new empty graph
+2025-03-18 10:53:47,912 - lightrag - INFO - Process 1734679 KV load full_docs with 0 records
+2025-03-18 10:53:47,912 - lightrag - INFO - Process 1734679 KV load text_chunks with 0 records
+2025-03-18 10:53:47,912 - lightrag - INFO - Process 1734679 KV load llm_response_cache with 0 records
+2025-03-18 10:53:47,913 - lightrag - INFO - Process 1734679 doc status load doc_status with 0 records
+2025-03-18 10:53:47,913 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 10:53:48,099 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 10:56:46,709 - lightrag - INFO - Created new empty graph
+2025-03-18 10:56:46,711 - lightrag - INFO - Process 1735700 KV load full_docs with 0 records
+2025-03-18 10:56:46,711 - lightrag - INFO - Process 1735700 KV load text_chunks with 0 records
+2025-03-18 10:56:46,712 - lightrag - INFO - Process 1735700 KV load llm_response_cache with 0 records
+2025-03-18 10:56:46,712 - lightrag - INFO - Process 1735700 doc status load doc_status with 0 records
+2025-03-18 10:56:46,734 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 10:56:46,862 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 10:57:08,361 - lightrag - INFO - Created new empty graph
+2025-03-18 10:57:08,363 - lightrag - INFO - Process 1735846 KV load full_docs with 0 records
+2025-03-18 10:57:08,363 - lightrag - INFO - Process 1735846 KV load text_chunks with 0 records
+2025-03-18 10:57:08,363 - lightrag - INFO - Process 1735846 KV load llm_response_cache with 0 records
+2025-03-18 10:57:08,363 - lightrag - INFO - Process 1735846 doc status load doc_status with 0 records
+2025-03-18 10:57:08,364 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 10:57:08,364 - lightrag - INFO - Process 1735846 doc status writting 1 records to doc_status
+2025-03-18 10:57:08,366 - lightrag - INFO - Stored 1 new unique documents
+2025-03-18 10:57:08,366 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 10:57:08,366 - lightrag - INFO - Number of batches to process: 1.
+2025-03-18 10:57:08,366 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-18 10:57:10,943 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 10:57:10,943 - lightrag - INFO - Process 1735846 doc status writting 1 records to doc_status
+2025-03-18 10:57:10,944 - lightrag - INFO - Inserting 42 to chunks
+2025-03-18 10:57:10,945 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-18 10:57:10,945 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-18 10:57:11,058 - lightrag - ERROR - Failed to process document doc-addb4618e1697da0445ec72a648e1f92: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-03-18 10:57:11,058 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 10:57:11,058 - lightrag - INFO - Process 1735846 doc status writting 1 records to doc_status
+2025-03-18 10:57:11,059 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-18 10:57:11,060 - lightrag - INFO - Process 1735846 KV writting 1 records to full_docs
+2025-03-18 10:57:11,061 - lightrag - INFO - Process 1735846 KV writting 42 records to text_chunks
+2025-03-18 10:57:11,062 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-18 10:57:11,063 - lightrag - INFO - All Insert done
+2025-03-18 10:57:11,063 - lightrag - INFO - Document processing pipeline completed
+2025-03-18 10:57:11,192 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 11:01:07,847 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-18 11:01:07,849 - lightrag - INFO - Process 1736770 KV load full_docs with 1 records
+2025-03-18 11:01:07,850 - lightrag - INFO - Process 1736770 KV load text_chunks with 42 records
+2025-03-18 11:01:07,850 - lightrag - INFO - Process 1736770 KV load llm_response_cache with 0 records
+2025-03-18 11:01:07,850 - lightrag - INFO - Process 1736770 doc status load doc_status with 1 records
+2025-03-18 11:01:07,851 - lightrag - INFO - No new unique documents were found.
+2025-03-18 11:01:07,851 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 11:01:07,851 - lightrag - INFO - Number of batches to process: 1.
+2025-03-18 11:01:07,851 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-18 11:01:07,999 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:01:07,999 - lightrag - INFO - Process 1736770 doc status writting 1 records to doc_status
+2025-03-18 11:01:08,001 - lightrag - INFO - Inserting 42 to chunks
+2025-03-18 11:01:08,001 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-18 11:01:08,002 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-18 11:01:08,078 - lightrag - ERROR - Failed to process document doc-addb4618e1697da0445ec72a648e1f92: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-03-18 11:01:08,079 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:01:08,079 - lightrag - INFO - Process 1736770 doc status writting 1 records to doc_status
+2025-03-18 11:01:08,080 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-18 11:01:08,081 - lightrag - INFO - Process 1736770 KV writting 1 records to full_docs
+2025-03-18 11:01:08,082 - lightrag - INFO - Process 1736770 KV writting 42 records to text_chunks
+2025-03-18 11:01:08,083 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-18 11:01:08,084 - lightrag - INFO - All Insert done
+2025-03-18 11:01:08,084 - lightrag - INFO - Document processing pipeline completed
+2025-03-18 11:01:08,214 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 11:01:22,381 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-18 11:01:22,384 - lightrag - INFO - Process 1736928 KV load full_docs with 1 records
+2025-03-18 11:01:22,384 - lightrag - INFO - Process 1736928 KV load text_chunks with 42 records
+2025-03-18 11:01:22,384 - lightrag - INFO - Process 1736928 KV load llm_response_cache with 0 records
+2025-03-18 11:01:22,385 - lightrag - INFO - Process 1736928 doc status load doc_status with 1 records
+2025-03-18 11:01:22,386 - lightrag - INFO - No new unique documents were found.
+2025-03-18 11:01:22,386 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 11:01:22,386 - lightrag - INFO - Number of batches to process: 1.
+2025-03-18 11:01:22,386 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-18 11:01:22,535 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:01:22,535 - lightrag - INFO - Process 1736928 doc status writting 1 records to doc_status
+2025-03-18 11:01:22,536 - lightrag - INFO - Inserting 42 to chunks
+2025-03-18 11:01:22,537 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-18 11:01:22,537 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-18 11:01:22,611 - lightrag - ERROR - Failed to process document doc-addb4618e1697da0445ec72a648e1f92: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-03-18 11:01:22,611 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:01:22,612 - lightrag - INFO - Process 1736928 doc status writting 1 records to doc_status
+2025-03-18 11:01:22,613 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-18 11:01:22,613 - lightrag - INFO - Process 1736928 KV writting 1 records to full_docs
+2025-03-18 11:01:22,615 - lightrag - INFO - Process 1736928 KV writting 42 records to text_chunks
+2025-03-18 11:01:22,616 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-18 11:01:22,616 - lightrag - INFO - All Insert done
+2025-03-18 11:01:22,617 - lightrag - INFO - Document processing pipeline completed
+2025-03-18 11:01:22,747 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 11:04:22,530 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-18 11:04:22,533 - lightrag - INFO - Process 1737667 KV load full_docs with 1 records
+2025-03-18 11:04:22,533 - lightrag - INFO - Process 1737667 KV load text_chunks with 42 records
+2025-03-18 11:04:22,533 - lightrag - INFO - Process 1737667 KV load llm_response_cache with 0 records
+2025-03-18 11:04:22,534 - lightrag - INFO - Process 1737667 doc status load doc_status with 1 records
+2025-03-18 11:04:22,535 - lightrag - INFO - No new unique documents were found.
+2025-03-18 11:04:22,535 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 11:04:22,535 - lightrag - INFO - Number of batches to process: 1.
+2025-03-18 11:04:22,535 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-18 11:04:22,684 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:04:22,685 - lightrag - INFO - Process 1737667 doc status writting 1 records to doc_status
+2025-03-18 11:04:22,686 - lightrag - INFO - Inserting 42 to chunks
+2025-03-18 11:04:22,687 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-18 11:04:22,687 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-18 11:04:22,761 - lightrag - ERROR - Failed to process document doc-addb4618e1697da0445ec72a648e1f92: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-03-18 11:04:22,761 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:04:22,761 - lightrag - INFO - Process 1737667 doc status writting 1 records to doc_status
+2025-03-18 11:04:22,762 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-18 11:04:22,763 - lightrag - INFO - Process 1737667 KV writting 1 records to full_docs
+2025-03-18 11:04:22,764 - lightrag - INFO - Process 1737667 KV writting 42 records to text_chunks
+2025-03-18 11:04:22,765 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-18 11:04:22,766 - lightrag - INFO - All Insert done
+2025-03-18 11:04:22,766 - lightrag - INFO - Document processing pipeline completed
+2025-03-18 11:04:22,896 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 11:06:15,561 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-18 11:06:15,563 - lightrag - INFO - Process 1738303 KV load full_docs with 1 records
+2025-03-18 11:06:15,564 - lightrag - INFO - Process 1738303 KV load text_chunks with 42 records
+2025-03-18 11:06:15,564 - lightrag - INFO - Process 1738303 KV load llm_response_cache with 0 records
+2025-03-18 11:06:15,565 - lightrag - INFO - Process 1738303 doc status load doc_status with 1 records
+2025-03-18 11:06:15,565 - lightrag - INFO - No new unique documents were found.
+2025-03-18 11:06:15,566 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 11:06:15,566 - lightrag - INFO - Number of batches to process: 1.
+2025-03-18 11:06:15,566 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-18 11:06:15,714 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:06:15,714 - lightrag - INFO - Process 1738303 doc status writting 1 records to doc_status
+2025-03-18 11:06:15,716 - lightrag - INFO - Inserting 42 to chunks
+2025-03-18 11:06:15,716 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-18 11:06:15,717 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-18 11:06:15,791 - lightrag - ERROR - Failed to process document doc-addb4618e1697da0445ec72a648e1f92: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-03-18 11:06:15,791 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:06:15,791 - lightrag - INFO - Process 1738303 doc status writting 1 records to doc_status
+2025-03-18 11:06:15,792 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-18 11:06:15,793 - lightrag - INFO - Process 1738303 KV writting 1 records to full_docs
+2025-03-18 11:06:15,794 - lightrag - INFO - Process 1738303 KV writting 42 records to text_chunks
+2025-03-18 11:06:15,795 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-18 11:06:15,796 - lightrag - INFO - All Insert done
+2025-03-18 11:06:15,796 - lightrag - INFO - Document processing pipeline completed
+2025-03-18 11:06:15,927 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 11:06:27,753 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-18 11:06:27,756 - lightrag - INFO - Process 1738426 KV load full_docs with 1 records
+2025-03-18 11:06:27,756 - lightrag - INFO - Process 1738426 KV load text_chunks with 42 records
+2025-03-18 11:06:27,757 - lightrag - INFO - Process 1738426 KV load llm_response_cache with 0 records
+2025-03-18 11:06:27,757 - lightrag - INFO - Process 1738426 doc status load doc_status with 1 records
+2025-03-18 11:06:27,758 - lightrag - INFO - No new unique documents were found.
+2025-03-18 11:06:27,758 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 11:06:27,758 - lightrag - INFO - Number of batches to process: 1.
+2025-03-18 11:06:27,758 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-18 11:06:27,912 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:06:27,912 - lightrag - INFO - Process 1738426 doc status writting 1 records to doc_status
+2025-03-18 11:06:27,913 - lightrag - INFO - Inserting 42 to chunks
+2025-03-18 11:06:27,914 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-18 11:06:27,914 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-18 11:06:27,989 - lightrag - ERROR - Failed to process document doc-addb4618e1697da0445ec72a648e1f92: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-03-18 11:06:27,989 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:06:27,989 - lightrag - INFO - Process 1738426 doc status writting 1 records to doc_status
+2025-03-18 11:06:27,990 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-18 11:06:27,991 - lightrag - INFO - Process 1738426 KV writting 1 records to full_docs
+2025-03-18 11:06:27,992 - lightrag - INFO - Process 1738426 KV writting 42 records to text_chunks
+2025-03-18 11:06:27,994 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-18 11:06:27,995 - lightrag - INFO - All Insert done
+2025-03-18 11:06:27,995 - lightrag - INFO - Document processing pipeline completed
+2025-03-18 11:06:28,127 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 11:07:07,250 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-18 11:07:07,253 - lightrag - INFO - Process 1738624 KV load full_docs with 1 records
+2025-03-18 11:07:07,254 - lightrag - INFO - Process 1738624 KV load text_chunks with 42 records
+2025-03-18 11:07:07,254 - lightrag - INFO - Process 1738624 KV load llm_response_cache with 0 records
+2025-03-18 11:07:07,254 - lightrag - INFO - Process 1738624 doc status load doc_status with 1 records
+2025-03-18 11:07:07,255 - lightrag - INFO - No new unique documents were found.
+2025-03-18 11:07:07,255 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 11:07:07,255 - lightrag - INFO - Number of batches to process: 1.
+2025-03-18 11:07:07,255 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-18 11:07:07,403 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:07:07,403 - lightrag - INFO - Process 1738624 doc status writting 1 records to doc_status
+2025-03-18 11:07:07,405 - lightrag - INFO - Inserting 42 to chunks
+2025-03-18 11:07:07,405 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-18 11:07:07,405 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-18 11:07:07,482 - lightrag - ERROR - Failed to process document doc-addb4618e1697da0445ec72a648e1f92: Failed to connect to Ollama. Please check that Ollama is downloaded, running and accessible. https://ollama.com/download
+2025-03-18 11:07:07,482 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:07:07,482 - lightrag - INFO - Process 1738624 doc status writting 1 records to doc_status
+2025-03-18 11:07:07,483 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-18 11:07:07,484 - lightrag - INFO - Process 1738624 KV writting 1 records to full_docs
+2025-03-18 11:07:07,485 - lightrag - INFO - Process 1738624 KV writting 42 records to text_chunks
+2025-03-18 11:07:07,487 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-18 11:07:07,487 - lightrag - INFO - All Insert done
+2025-03-18 11:07:07,487 - lightrag - INFO - Document processing pipeline completed
+2025-03-18 11:07:07,618 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 11:11:34,891 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-18 11:11:34,894 - lightrag - INFO - Process 1739539 KV load full_docs with 1 records
+2025-03-18 11:11:34,895 - lightrag - INFO - Process 1739539 KV load text_chunks with 42 records
+2025-03-18 11:11:34,895 - lightrag - INFO - Process 1739539 KV load llm_response_cache with 0 records
+2025-03-18 11:11:34,895 - lightrag - INFO - Process 1739539 doc status load doc_status with 1 records
+2025-03-18 11:11:34,896 - lightrag - INFO - No new unique documents were found.
+2025-03-18 11:11:34,896 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 11:11:34,896 - lightrag - INFO - Number of batches to process: 1.
+2025-03-18 11:11:34,896 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-18 11:11:35,044 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:11:35,044 - lightrag - INFO - Process 1739539 doc status writting 1 records to doc_status
+2025-03-18 11:11:35,046 - lightrag - INFO - Inserting 42 to chunks
+2025-03-18 11:11:35,046 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-18 11:11:35,047 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-18 11:11:35,121 - lightrag - ERROR - Failed to process document doc-addb4618e1697da0445ec72a648e1f92: model "nomic-embed-text" not found, try pulling it first (status code: 404)
+2025-03-18 11:11:35,121 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:11:35,121 - lightrag - INFO - Process 1739539 doc status writting 1 records to doc_status
+2025-03-18 11:11:35,123 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-18 11:11:35,123 - lightrag - INFO - Process 1739539 KV writting 1 records to full_docs
+2025-03-18 11:11:35,125 - lightrag - INFO - Process 1739539 KV writting 42 records to text_chunks
+2025-03-18 11:11:35,126 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-18 11:11:35,127 - lightrag - INFO - All Insert done
+2025-03-18 11:11:35,127 - lightrag - INFO - Document processing pipeline completed
+2025-03-18 11:11:35,258 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 11:15:10,308 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-18 11:15:10,310 - lightrag - INFO - Process 1740382 KV load full_docs with 1 records
+2025-03-18 11:15:10,311 - lightrag - INFO - Process 1740382 KV load text_chunks with 42 records
+2025-03-18 11:15:10,311 - lightrag - INFO - Process 1740382 KV load llm_response_cache with 0 records
+2025-03-18 11:15:10,312 - lightrag - INFO - Process 1740382 doc status load doc_status with 1 records
+2025-03-18 11:15:10,312 - lightrag - INFO - No new unique documents were found.
+2025-03-18 11:15:10,312 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 11:15:10,313 - lightrag - INFO - Number of batches to process: 1.
+2025-03-18 11:15:10,313 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-18 11:15:10,462 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:15:10,462 - lightrag - INFO - Process 1740382 doc status writting 1 records to doc_status
+2025-03-18 11:15:10,463 - lightrag - INFO - Inserting 42 to chunks
+2025-03-18 11:15:10,464 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-18 11:15:10,464 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-18 11:15:11,740 - lightrag - INFO - Process 1740382 reloading chunks due to update by another process
+2025-03-18 11:15:47,984 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:15:55,277 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:15:59,118 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:16:01,509 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:16:24,226 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:16:34,444 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:16:52,756 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:16:56,992 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:17:04,780 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:17:12,295 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:17:18,823 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:17:41,349 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:17:45,729 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:17:53,034 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:18:07,878 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:18:10,840 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:18:17,430 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:18:32,443 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:18:40,126 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:18:55,312 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:19:01,720 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:19:12,304 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:19:19,218 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:19:41,453 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:19:43,002 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:19:52,205 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:20:11,453 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:20:17,623 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:20:33,428 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:20:37,812 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:20:49,303 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:21:13,115 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:21:16,443 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:21:21,778 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:21:29,076 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:21:52,665 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:21:55,604 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:22:04,204 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:22:21,273 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:22:27,425 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:22:36,392 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:22:46,060 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:23:31,120 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:23:31,120 - lightrag - INFO -   Chunk 1/42: extracted 7 entities and 5 relationships (deduplicated)
+2025-03-18 11:23:36,106 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:23:36,106 - lightrag - INFO -   Chunk 2/42: extracted 7 entities and 6 relationships (deduplicated)
+2025-03-18 11:24:12,461 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:24:12,461 - lightrag - INFO -   Chunk 3/42: extracted 26 entities and 8 relationships (deduplicated)
+2025-03-18 11:24:23,282 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:24:23,283 - lightrag - INFO -   Chunk 4/42: extracted 10 entities and 7 relationships (deduplicated)
+2025-03-18 11:24:39,913 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:24:39,914 - lightrag - INFO -   Chunk 5/42: extracted 10 entities and 6 relationships (deduplicated)
+2025-03-18 11:24:55,848 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:24:55,848 - lightrag - INFO -   Chunk 6/42: extracted 10 entities and 10 relationships (deduplicated)
+2025-03-18 11:25:16,785 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:25:16,785 - lightrag - INFO -   Chunk 7/42: extracted 5 entities and 7 relationships (deduplicated)
+2025-03-18 11:25:25,846 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:25:25,846 - lightrag - INFO -   Chunk 8/42: extracted 3 entities and 2 relationships (deduplicated)
+2025-03-18 11:25:42,949 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:25:42,950 - lightrag - INFO -   Chunk 9/42: extracted 8 entities and 7 relationships (deduplicated)
+2025-03-18 11:25:51,999 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:25:51,999 - lightrag - INFO -   Chunk 10/42: extracted 1 entities and 1 relationships (deduplicated)
+2025-03-18 11:25:56,603 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:25:56,603 - lightrag - INFO -   Chunk 11/42: extracted 0 entities and 0 relationships (deduplicated)
+2025-03-18 11:26:32,167 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:26:32,167 - lightrag - INFO -   Chunk 12/42: extracted 6 entities and 4 relationships (deduplicated)
+2025-03-18 11:26:37,137 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:26:37,137 - lightrag - INFO -   Chunk 13/42: extracted 12 entities and 9 relationships (deduplicated)
+2025-03-18 11:26:45,724 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:26:45,725 - lightrag - INFO -   Chunk 14/42: extracted 7 entities and 6 relationships (deduplicated)
+2025-03-18 11:27:02,061 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:27:02,061 - lightrag - INFO -   Chunk 15/42: extracted 9 entities and 7 relationships (deduplicated)
+2025-03-18 11:27:26,716 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:27:26,717 - lightrag - INFO -   Chunk 16/42: extracted 13 entities and 8 relationships (deduplicated)
+2025-03-18 11:27:45,188 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:27:45,188 - lightrag - INFO -   Chunk 17/42: extracted 11 entities and 8 relationships (deduplicated)
+2025-03-18 11:27:58,419 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:27:58,419 - lightrag - INFO -   Chunk 18/42: extracted 10 entities and 6 relationships (deduplicated)
+2025-03-18 11:28:04,630 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:28:04,630 - lightrag - INFO -   Chunk 19/42: extracted 13 entities and 9 relationships (deduplicated)
+2025-03-18 11:28:34,058 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:28:34,058 - lightrag - INFO -   Chunk 20/42: extracted 6 entities and 5 relationships (deduplicated)
+2025-03-18 11:28:53,542 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:28:53,543 - lightrag - INFO -   Chunk 21/42: extracted 9 entities and 8 relationships (deduplicated)
+2025-03-18 11:29:10,616 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:29:10,616 - lightrag - INFO -   Chunk 22/42: extracted 8 entities and 7 relationships (deduplicated)
+2025-03-18 11:29:20,151 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:29:20,151 - lightrag - INFO -   Chunk 23/42: extracted 12 entities and 7 relationships (deduplicated)
+2025-03-18 11:29:47,829 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:29:47,830 - lightrag - INFO -   Chunk 24/42: extracted 8 entities and 9 relationships (deduplicated)
+2025-03-18 11:29:58,593 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:29:58,593 - lightrag - INFO -   Chunk 25/42: extracted 10 entities and 7 relationships (deduplicated)
+2025-03-18 11:30:09,404 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:30:09,404 - lightrag - INFO -   Chunk 26/42: extracted 5 entities and 4 relationships (deduplicated)
+2025-03-18 11:30:30,672 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:30:30,672 - lightrag - INFO -   Chunk 27/42: extracted 8 entities and 8 relationships (deduplicated)
+2025-03-18 11:30:53,837 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:30:53,837 - lightrag - INFO -   Chunk 28/42: extracted 9 entities and 7 relationships (deduplicated)
+2025-03-18 11:31:02,038 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:31:02,038 - lightrag - INFO -   Chunk 29/42: extracted 15 entities and 9 relationships (deduplicated)
+2025-03-18 11:31:18,756 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:31:18,756 - lightrag - INFO -   Chunk 30/42: extracted 7 entities and 5 relationships (deduplicated)
+2025-03-18 11:31:24,423 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:31:24,423 - lightrag - INFO -   Chunk 31/42: extracted 8 entities and 5 relationships (deduplicated)
+2025-03-18 11:31:54,871 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:31:54,871 - lightrag - INFO -   Chunk 32/42: extracted 3 entities and 3 relationships (deduplicated)
+2025-03-18 11:32:01,596 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:32:01,596 - lightrag - INFO -   Chunk 33/42: extracted 8 entities and 9 relationships (deduplicated)
+2025-03-18 11:32:06,742 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:32:06,743 - lightrag - INFO -   Chunk 34/42: extracted 10 entities and 8 relationships (deduplicated)
+2025-03-18 11:32:44,293 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:32:44,293 - lightrag - INFO -   Chunk 35/42: extracted 12 entities and 9 relationships (deduplicated)
+2025-03-18 11:32:53,541 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:32:53,541 - lightrag - INFO -   Chunk 36/42: extracted 6 entities and 7 relationships (deduplicated)
+2025-03-18 11:33:11,562 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:33:11,562 - lightrag - INFO -   Chunk 37/42: extracted 7 entities and 4 relationships (deduplicated)
+2025-03-18 11:33:17,573 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:33:17,573 - lightrag - INFO -   Chunk 38/42: extracted 12 entities and 9 relationships (deduplicated)
+2025-03-18 11:33:28,651 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:33:28,652 - lightrag - INFO -   Chunk 39/42: extracted 8 entities and 6 relationships (deduplicated)
+2025-03-18 11:33:32,200 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:33:32,200 - lightrag - INFO -   Chunk 40/42: extracted 5 entities and 6 relationships (deduplicated)
+2025-03-18 11:33:46,666 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:33:46,666 - lightrag - INFO -   Chunk 41/42: extracted 4 entities and 5 relationships (deduplicated)
+2025-03-18 11:33:52,451 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:33:52,451 - lightrag - INFO -   Chunk 42/42: extracted 9 entities and 5 relationships (deduplicated)
+2025-03-18 11:33:52,512 - lightrag - INFO - Process 1740382 reloading graph chunk_entity_relation due to update by another process
+2025-03-18 11:34:20,122 - lightrag - INFO - Extracted 202 entities and 197 relationships (deduplicated)
+2025-03-18 11:34:20,123 - lightrag - INFO - Inserting 202 to entities
+2025-03-18 11:34:22,458 - lightrag - INFO - Process 1740382 reloading entities due to update by another process
+2025-03-18 11:34:22,464 - lightrag - INFO - Inserting 197 to relationships
+2025-03-18 11:34:24,153 - lightrag - INFO - Process 1740382 reloading relationships due to update by another process
+2025-03-18 11:34:24,158 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-18 11:34:24,158 - lightrag - INFO - Process 1740382 doc status writting 1 records to doc_status
+2025-03-18 11:34:24,159 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-18 11:34:24,159 - lightrag - INFO - Process 1740382 KV writting 1 records to full_docs
+2025-03-18 11:34:24,161 - lightrag - INFO - Process 1740382 KV writting 42 records to text_chunks
+2025-03-18 11:34:24,162 - lightrag - INFO - Process 1740382 KV writting 84 records to llm_response_cache
+2025-03-18 11:34:24,183 - lightrag - INFO - Writing graph with 220 nodes, 197 edges
+2025-03-18 11:34:24,191 - lightrag - INFO - All Insert done
+2025-03-18 11:34:24,191 - lightrag - INFO - Document processing pipeline completed
+2025-03-18 11:34:45,399 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:34:45,399 - lightrag - INFO - Process 1740382 KV writting 85 records to llm_response_cache
+2025-03-18 11:35:02,278 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:35:02,279 - lightrag - WARNING - low_level_keywords is empty, switching from local mode to global mode
+2025-03-18 11:35:02,279 - lightrag - INFO - Process 1740382 buidling query context...
+2025-03-18 11:35:02,279 - lightrag - INFO - Query edges: Themes, top_k: 60, cosine: 0.2
+2025-03-18 11:35:02,314 - lightrag - INFO - Global query uses 24 entites, 60 relations, 3 chunks
+2025-03-18 11:35:03,093 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:35:03,094 - lightrag - INFO - Process 1740382 KV writting 87 records to llm_response_cache
+2025-03-18 11:35:08,982 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:35:08,982 - lightrag - INFO - Process 1740382 buidling query context...
+2025-03-18 11:35:08,982 - lightrag - INFO - Query edges: Themes, Narrative structure, top_k: 60, cosine: 0.2
+2025-03-18 11:35:09,013 - lightrag - INFO - Global query uses 23 entites, 60 relations, 3 chunks
+2025-03-18 11:35:15,455 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:35:15,455 - lightrag - INFO - Process 1740382 KV writting 89 records to llm_response_cache
+2025-03-18 11:35:22,743 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:35:22,743 - lightrag - INFO - Process 1740382 buidling query context...
+2025-03-18 11:35:22,743 - lightrag - INFO - Query nodes: Characters, Plot points, Setting, Motifs, Symbols, top_k: 60, cosine: 0.2
+2025-03-18 11:35:22,764 - lightrag - INFO - Query edges: Themes, Narrative analysis, top_k: 60, cosine: 0.2
+2025-03-18 11:35:22,848 - lightrag - INFO - Global query uses 31 entites, 60 relations, 3 chunks
+2025-03-18 11:35:22,857 - lightrag - INFO - Local query uses 49 entites, 80 relations, 3 chunks
+2025-03-18 11:35:35,656 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 11:35:35,656 - lightrag - INFO - Process 1740382 KV writting 91 records to llm_response_cache
+2025-03-18 11:35:35,669 - lightrag - INFO - Storage Finalization completed!
+2025-03-18 15:41:11,532 - lightrag - INFO - Storage Finalization completed!
+2025-03-18 16:03:02,763 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 220 nodes, 197 edges
+2025-03-18 16:03:02,771 - lightrag - INFO - Process 1815752 KV load full_docs with 1 records
+2025-03-18 16:03:02,771 - lightrag - INFO - Process 1815752 KV load text_chunks with 42 records
+2025-03-18 16:03:02,779 - lightrag - INFO - Process 1815752 KV load llm_response_cache with 91 records
+2025-03-18 16:03:02,779 - lightrag - INFO - Process 1815752 doc status load doc_status with 1 records
+2025-03-18 16:03:02,981 - lightrag - INFO - No new unique documents were found.
+2025-03-18 16:03:02,981 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 16:03:02,981 - lightrag - INFO - No documents to process
+2025-03-18 16:03:02,981 - lightrag - WARNING - low_level_keywords is empty, switching from local mode to global mode
+2025-03-18 16:03:02,982 - lightrag - INFO - Process 1815752 buidling query context...
+2025-03-18 16:03:02,982 - lightrag - INFO - Query edges: Themes, top_k: 60, cosine: 0.2
+2025-03-18 16:03:03,115 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-18 16:03:30,277 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 220 nodes, 197 edges
+2025-03-18 16:03:30,284 - lightrag - INFO - Process 1816104 KV load full_docs with 1 records
+2025-03-18 16:03:30,285 - lightrag - INFO - Process 1816104 KV load text_chunks with 42 records
+2025-03-18 16:03:30,292 - lightrag - INFO - Process 1816104 KV load llm_response_cache with 91 records
+2025-03-18 16:03:30,292 - lightrag - INFO - Process 1816104 doc status load doc_status with 1 records
+2025-03-18 16:03:30,343 - lightrag - INFO - No new unique documents were found.
+2025-03-18 16:03:30,343 - lightrag - INFO - Storage Initialization completed!
+2025-03-18 16:03:30,343 - lightrag - INFO - No documents to process
+2025-03-18 16:03:30,343 - lightrag - WARNING - low_level_keywords is empty, switching from local mode to global mode
+2025-03-18 16:03:30,344 - lightrag - INFO - Process 1816104 buidling query context...
+2025-03-18 16:03:30,344 - lightrag - INFO - Query edges: Themes, top_k: 60, cosine: 0.2
+2025-03-18 16:03:30,904 - lightrag - INFO - Process 1816104 reloading relationships due to update by another process
+2025-03-18 16:03:30,908 - lightrag - INFO - Process 1816104 reloading graph chunk_entity_relation due to update by another process
+2025-03-18 16:03:31,098 - lightrag - INFO - Global query uses 24 entites, 60 relations, 3 chunks
+2025-03-18 16:03:57,424 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-18 16:03:57,424 - lightrag - INFO - Process 1816104 KV writting 91 records to llm_response_cache
+2025-03-18 16:03:57,435 - lightrag - INFO - Storage Finalization completed!
+2025-03-19 10:49:35,116 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 220 nodes, 197 edges
+2025-03-19 10:49:35,248 - lightrag - INFO - Process 2142565 KV load full_docs with 1 records
+2025-03-19 10:49:35,250 - lightrag - INFO - Process 2142565 KV load text_chunks with 42 records
+2025-03-19 10:49:35,288 - lightrag - INFO - Process 2142565 KV load llm_response_cache with 91 records
+2025-03-19 10:49:35,289 - lightrag - INFO - Process 2142565 doc status load doc_status with 1 records
+2025-03-19 10:49:35,311 - lightrag - INFO - Storage Initialization completed!
+2025-03-19 10:49:35,483 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-19 15:14:38,947 - lightrag - INFO - Storage Finalization completed!
+2025-03-19 15:16:18,295 - lightrag - INFO - Storage Finalization completed!
+2025-03-19 15:17:15,424 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 220 nodes, 197 edges
+2025-03-19 15:17:15,431 - lightrag - INFO - Process 2285802 KV load full_docs with 1 records
+2025-03-19 15:17:15,432 - lightrag - INFO - Process 2285802 KV load text_chunks with 42 records
+2025-03-19 15:17:15,438 - lightrag - INFO - Process 2285802 KV load llm_response_cache with 91 records
+2025-03-19 15:17:15,439 - lightrag - INFO - Process 2285802 doc status load doc_status with 1 records
+2025-03-19 15:17:15,439 - lightrag - INFO - No new unique documents were found.
+2025-03-19 15:17:15,440 - lightrag - INFO - Storage Initialization completed!
+2025-03-19 15:17:15,440 - lightrag - INFO - No documents to process
+2025-03-19 15:17:15,440 - lightrag - WARNING - low_level_keywords is empty, switching from local mode to global mode
+2025-03-19 15:17:15,440 - lightrag - INFO - Process 2285802 buidling query context...
+2025-03-19 15:17:15,440 - lightrag - INFO - Query edges: Themes, top_k: 60, cosine: 0.2
+2025-03-19 15:17:15,589 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-19 15:17:40,506 - lightrag - INFO - Loaded graph from ./dickens/graph_chunk_entity_relation.graphml with 220 nodes, 197 edges
+2025-03-19 15:17:40,514 - lightrag - INFO - Process 2286642 KV load full_docs with 1 records
+2025-03-19 15:17:40,515 - lightrag - INFO - Process 2286642 KV load text_chunks with 42 records
+2025-03-19 15:17:40,522 - lightrag - INFO - Process 2286642 KV load llm_response_cache with 91 records
+2025-03-19 15:17:40,522 - lightrag - INFO - Process 2286642 doc status load doc_status with 1 records
+2025-03-19 15:17:40,523 - lightrag - INFO - No new unique documents were found.
+2025-03-19 15:17:40,523 - lightrag - INFO - Storage Initialization completed!
+2025-03-19 15:17:40,523 - lightrag - INFO - No documents to process
+2025-03-19 15:17:40,523 - lightrag - WARNING - low_level_keywords is empty, switching from local mode to global mode
+2025-03-19 15:17:40,524 - lightrag - INFO - Process 2286642 buidling query context...
+2025-03-19 15:17:40,524 - lightrag - INFO - Query edges: Themes, top_k: 60, cosine: 0.2
+2025-03-19 15:17:45,683 - lightrag - INFO - Process 2286642 reloading relationships due to update by another process
+2025-03-19 15:17:45,706 - lightrag - INFO - Process 2286642 reloading graph chunk_entity_relation due to update by another process
+2025-03-19 15:17:45,948 - lightrag - INFO - Global query uses 24 entites, 60 relations, 3 chunks
+2025-03-19 15:19:09,778 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:19:09,779 - lightrag - INFO - Process 2286642 KV writting 91 records to llm_response_cache
+2025-03-19 15:19:10,413 - lightrag - INFO - Storage Finalization completed!
+2025-03-19 15:22:24,744 - lightrag - INFO - Created new empty graph
+2025-03-19 15:22:24,747 - lightrag - INFO - Process 2289042 KV load full_docs with 0 records
+2025-03-19 15:22:24,747 - lightrag - INFO - Process 2289042 KV load text_chunks with 0 records
+2025-03-19 15:22:24,747 - lightrag - INFO - Process 2289042 KV load llm_response_cache with 0 records
+2025-03-19 15:22:24,747 - lightrag - INFO - Process 2289042 doc status load doc_status with 0 records
+2025-03-19 15:22:24,748 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-19 15:22:24,748 - lightrag - INFO - Process 2289042 doc status writting 1 records to doc_status
+2025-03-19 15:22:24,749 - lightrag - INFO - Stored 1 new unique documents
+2025-03-19 15:22:24,749 - lightrag - INFO - Storage Initialization completed!
+2025-03-19 15:22:24,749 - lightrag - INFO - Number of batches to process: 1.
+2025-03-19 15:22:24,749 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-19 15:22:24,906 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-19 15:22:24,906 - lightrag - INFO - Process 2289042 doc status writting 1 records to doc_status
+2025-03-19 15:22:24,907 - lightrag - INFO - Inserting 42 to chunks
+2025-03-19 15:22:24,907 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-19 15:22:24,907 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-19 15:22:28,543 - lightrag - INFO - Process 2289042 reloading chunks due to update by another process
+2025-03-19 15:24:40,495 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:27:08,867 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:29:09,699 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:31:40,857 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:34:54,096 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:38:32,026 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:40:26,222 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:42:19,750 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:45:16,950 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:47:08,184 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:49:46,347 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:51:31,708 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:53:52,207 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:56:25,074 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 15:58:25,650 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:00:54,742 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:04:16,104 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:07:03,338 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:09:18,740 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:11:59,541 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:14:41,761 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:16:40,844 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:22:36,867 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:25:29,031 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:26:56,233 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:29:05,939 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:31:37,549 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:34:07,562 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:36:28,358 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:39:57,832 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:43:01,338 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:45:00,968 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:47:44,905 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:53:41,569 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:56:01,024 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 16:58:13,070 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:00:03,964 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:03:01,119 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:05:06,308 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:06:59,628 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:08:19,306 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:10:27,293 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:12:40,369 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:12:40,369 - lightrag - INFO -   Chunk 1/42: extracted 3 entities and 3 relationships (deduplicated)
+2025-03-19 17:18:31,092 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:18:31,092 - lightrag - INFO -   Chunk 2/42: extracted 12 entities and 8 relationships (deduplicated)
+2025-03-19 17:20:29,675 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:20:29,675 - lightrag - INFO -   Chunk 3/42: extracted 3 entities and 2 relationships (deduplicated)
+2025-03-19 17:24:08,860 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:24:08,860 - lightrag - INFO -   Chunk 4/42: extracted 18 entities and 7 relationships (deduplicated)
+2025-03-19 17:26:44,866 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:26:44,866 - lightrag - INFO -   Chunk 5/42: extracted 8 entities and 5 relationships (deduplicated)
+2025-03-19 17:29:40,602 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:29:40,603 - lightrag - INFO -   Chunk 6/42: extracted 6 entities and 4 relationships (deduplicated)
+2025-03-19 17:36:08,478 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:36:08,478 - lightrag - INFO -   Chunk 7/42: extracted 4 entities and 3 relationships (deduplicated)
+2025-03-19 17:38:11,322 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:38:11,322 - lightrag - INFO -   Chunk 8/42: extracted 5 entities and 3 relationships (deduplicated)
+2025-03-19 17:40:31,491 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:40:31,492 - lightrag - INFO -   Chunk 9/42: extracted 4 entities and 3 relationships (deduplicated)
+2025-03-19 17:43:23,492 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:43:23,492 - lightrag - INFO -   Chunk 10/42: extracted 8 entities and 4 relationships (deduplicated)
+2025-03-19 17:46:00,790 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:46:00,791 - lightrag - INFO -   Chunk 11/42: extracted 7 entities and 5 relationships (deduplicated)
+2025-03-19 17:48:42,634 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:48:42,634 - lightrag - INFO -   Chunk 12/42: extracted 6 entities and 8 relationships (deduplicated)
+2025-03-19 17:51:25,555 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:51:25,555 - lightrag - INFO -   Chunk 13/42: extracted 7 entities and 5 relationships (deduplicated)
+2025-03-19 17:53:53,707 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:53:53,707 - lightrag - INFO -   Chunk 14/42: extracted 9 entities and 5 relationships (deduplicated)
+2025-03-19 17:57:56,652 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 17:57:56,652 - lightrag - INFO -   Chunk 15/42: extracted 13 entities and 12 relationships (deduplicated)
+2025-03-19 18:00:21,519 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 18:00:21,519 - lightrag - INFO -   Chunk 16/42: extracted 5 entities and 4 relationships (deduplicated)
+2025-03-19 18:04:14,779 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-19 18:04:14,779 - lightrag - INFO -   Chunk 17/42: extracted 13 entities and 10 relationships (deduplicated)
+2025-03-19 18:04:36,416 - lightrag - INFO - Document processing pipeline completed
+2025-03-19 18:04:36,598 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-21 01:27:53,596 - lightrag - INFO - Created new empty graph
+2025-03-21 01:27:53,667 - lightrag - INFO - Process 3799387 KV load full_docs with 0 records
+2025-03-21 01:27:53,667 - lightrag - INFO - Process 3799387 KV load text_chunks with 0 records
+2025-03-21 01:27:53,668 - lightrag - INFO - Process 3799387 KV load llm_response_cache with 0 records
+2025-03-21 01:27:53,676 - lightrag - INFO - Process 3799387 doc status load doc_status with 1 records
+2025-03-21 01:27:53,688 - lightrag - INFO - No new unique documents were found.
+2025-03-21 01:27:53,688 - lightrag - INFO - Storage Initialization completed!
+2025-03-21 01:27:53,689 - lightrag - INFO - Number of batches to process: 1.
+2025-03-21 01:27:53,689 - lightrag - INFO - Start processing batch 1 of 1.
+2025-03-21 01:27:53,931 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-21 01:27:53,931 - lightrag - INFO - Process 3799387 doc status writting 1 records to doc_status
+2025-03-21 01:27:53,932 - lightrag - INFO - Inserting 42 to chunks
+2025-03-21 01:27:53,933 - lightrag - INFO - Inserting 1 records to full_docs
+2025-03-21 01:27:53,933 - lightrag - INFO - Inserting 42 records to text_chunks
+2025-03-21 01:27:59,094 - lightrag - INFO - Process 3799387 reloading chunks due to update by another process
+2025-03-21 01:29:35,209 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:29:42,374 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:29:51,327 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:29:59,072 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:30:03,296 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:30:18,986 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:30:25,524 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:30:30,981 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:30:43,521 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:30:50,908 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:30:55,369 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:31:28,159 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:31:34,701 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:31:38,401 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:31:54,726 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:32:10,836 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:32:13,768 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:32:24,970 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:32:38,870 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:32:52,181 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:32:56,213 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:33:02,968 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:33:24,333 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:33:34,458 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:33:36,143 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:33:55,549 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:34:11,917 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:34:14,279 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:34:16,293 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:34:35,250 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:34:42,536 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:34:52,507 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:34:54,611 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:35:13,270 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:35:24,071 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:35:25,572 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:35:46,178 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:35:51,599 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:35:56,268 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:36:01,737 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:36:30,884 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:36:33,227 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:36:56,816 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:36:56,816 - lightrag - INFO -   Chunk 1/42: extracted 9 entities and 7 relationships (deduplicated)
+2025-03-21 01:37:05,018 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:37:05,018 - lightrag - INFO -   Chunk 2/42: extracted 11 entities and 9 relationships (deduplicated)
+2025-03-21 01:37:24,991 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:37:24,992 - lightrag - INFO -   Chunk 3/42: extracted 8 entities and 7 relationships (deduplicated)
+2025-03-21 01:37:56,375 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:37:56,375 - lightrag - INFO -   Chunk 4/42: extracted 10 entities and 7 relationships (deduplicated)
+2025-03-21 01:37:58,940 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:37:58,940 - lightrag - INFO -   Chunk 5/42: extracted 7 entities and 6 relationships (deduplicated)
+2025-03-21 01:38:29,080 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:38:29,081 - lightrag - INFO -   Chunk 6/42: extracted 17 entities and 6 relationships (deduplicated)
+2025-03-21 01:38:36,855 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:38:36,855 - lightrag - INFO -   Chunk 7/42: extracted 26 entities and 18 relationships (deduplicated)
+2025-03-21 01:38:53,120 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:38:53,120 - lightrag - INFO -   Chunk 8/42: extracted 8 entities and 7 relationships (deduplicated)
+2025-03-21 01:39:02,405 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:39:02,405 - lightrag - INFO -   Chunk 9/42: extracted 9 entities and 5 relationships (deduplicated)
+2025-03-21 01:39:28,073 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:39:28,073 - lightrag - INFO -   Chunk 10/42: extracted 7 entities and 4 relationships (deduplicated)
+2025-03-21 01:39:38,771 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:39:38,771 - lightrag - INFO -   Chunk 11/42: extracted 10 entities and 7 relationships (deduplicated)
+2025-03-21 01:40:03,283 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:40:03,283 - lightrag - INFO -   Chunk 12/42: extracted 8 entities and 5 relationships (deduplicated)
+2025-03-21 01:40:07,496 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:40:07,496 - lightrag - INFO -   Chunk 13/42: extracted 10 entities and 8 relationships (deduplicated)
+2025-03-21 01:40:30,008 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:40:30,008 - lightrag - INFO -   Chunk 14/42: extracted 8 entities and 6 relationships (deduplicated)
+2025-03-21 01:40:33,982 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:40:33,983 - lightrag - INFO -   Chunk 15/42: extracted 4 entities and 2 relationships (deduplicated)
+2025-03-21 01:40:59,185 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:40:59,185 - lightrag - INFO -   Chunk 16/42: extracted 9 entities and 6 relationships (deduplicated)
+2025-03-21 01:41:03,903 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:41:03,903 - lightrag - INFO -   Chunk 17/42: extracted 5 entities and 6 relationships (deduplicated)
+2025-03-21 01:41:26,711 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:41:26,711 - lightrag - INFO -   Chunk 18/42: extracted 10 entities and 7 relationships (deduplicated)
+2025-03-21 01:41:51,769 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:41:51,769 - lightrag - INFO -   Chunk 19/42: extracted 13 entities and 4 relationships (deduplicated)
+2025-03-21 01:42:36,197 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:42:36,197 - lightrag - INFO -   Chunk 20/42: extracted 3 entities and 2 relationships (deduplicated)
+2025-03-21 01:42:43,354 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:42:43,355 - lightrag - INFO -   Chunk 21/42: extracted 8 entities and 3 relationships (deduplicated)
+2025-03-21 01:42:54,460 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:42:54,460 - lightrag - INFO -   Chunk 22/42: extracted 9 entities and 4 relationships (deduplicated)
+2025-03-21 01:43:13,796 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:43:13,796 - lightrag - INFO -   Chunk 23/42: extracted 16 entities and 15 relationships (deduplicated)
+2025-03-21 01:43:58,898 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:43:58,898 - lightrag - INFO -   Chunk 24/42: extracted 12 entities and 10 relationships (deduplicated)
+2025-03-21 01:44:03,364 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:44:03,364 - lightrag - INFO -   Chunk 25/42: extracted 8 entities and 4 relationships (deduplicated)
+2025-03-21 01:44:19,292 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:44:19,292 - lightrag - INFO -   Chunk 26/42: extracted 13 entities and 7 relationships (deduplicated)
+2025-03-21 01:45:00,720 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:45:00,720 - lightrag - INFO -   Chunk 27/42: extracted 7 entities and 4 relationships (deduplicated)
+2025-03-21 01:45:15,709 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:45:15,709 - lightrag - INFO -   Chunk 28/42: extracted 7 entities and 6 relationships (deduplicated)
+2025-03-21 01:45:31,256 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:45:31,256 - lightrag - INFO -   Chunk 29/42: extracted 6 entities and 4 relationships (deduplicated)
+2025-03-21 01:45:43,637 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:45:43,637 - lightrag - INFO -   Chunk 30/42: extracted 16 entities and 7 relationships (deduplicated)
+2025-03-21 01:46:13,641 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:46:13,642 - lightrag - INFO -   Chunk 31/42: extracted 10 entities and 7 relationships (deduplicated)
+2025-03-21 01:46:22,539 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:46:22,540 - lightrag - INFO -   Chunk 32/42: extracted 7 entities and 4 relationships (deduplicated)
+2025-03-21 01:46:39,429 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:46:39,429 - lightrag - INFO -   Chunk 33/42: extracted 6 entities and 4 relationships (deduplicated)
+2025-03-21 01:46:47,841 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:46:47,842 - lightrag - INFO -   Chunk 34/42: extracted 5 entities and 3 relationships (deduplicated)
+2025-03-21 01:47:09,369 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:47:09,370 - lightrag - INFO -   Chunk 35/42: extracted 5 entities and 4 relationships (deduplicated)
+2025-03-21 01:47:28,205 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:47:28,205 - lightrag - INFO -   Chunk 36/42: extracted 10 entities and 8 relationships (deduplicated)
+2025-03-21 01:47:43,583 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:47:43,584 - lightrag - INFO -   Chunk 37/42: extracted 6 entities and 4 relationships (deduplicated)
+2025-03-21 01:48:00,253 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:48:00,253 - lightrag - INFO -   Chunk 38/42: extracted 10 entities and 5 relationships (deduplicated)
+2025-03-21 01:48:22,114 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:48:22,114 - lightrag - INFO -   Chunk 39/42: extracted 5 entities and 5 relationships (deduplicated)
+2025-03-21 01:48:27,019 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:48:27,019 - lightrag - INFO -   Chunk 40/42: extracted 10 entities and 10 relationships (deduplicated)
+2025-03-21 01:48:27,764 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:48:27,765 - lightrag - INFO -   Chunk 41/42: extracted 5 entities and 5 relationships (deduplicated)
+2025-03-21 01:48:38,601 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:48:38,601 - lightrag - INFO -   Chunk 42/42: extracted 5 entities and 5 relationships (deduplicated)
+2025-03-21 01:48:38,606 - lightrag - INFO - Process 3799387 reloading graph chunk_entity_relation due to update by another process
+2025-03-21 01:48:49,189 - lightrag - INFO - Extracted 236 entities and 203 relationships (deduplicated)
+2025-03-21 01:48:49,191 - lightrag - INFO - Inserting 236 to entities
+2025-03-21 01:48:51,966 - lightrag - INFO - Process 3799387 reloading entities due to update by another process
+2025-03-21 01:48:51,969 - lightrag - INFO - Inserting 203 to relationships
+2025-03-21 01:48:53,887 - lightrag - INFO - Process 3799387 reloading relationships due to update by another process
+2025-03-21 01:48:53,894 - lightrag - INFO - Inserting 1 records to doc_status
+2025-03-21 01:48:53,894 - lightrag - INFO - Process 3799387 doc status writting 1 records to doc_status
+2025-03-21 01:48:53,896 - lightrag - INFO - Completed batch 1 of 1.
+2025-03-21 01:48:53,896 - lightrag - INFO - Process 3799387 KV writting 1 records to full_docs
+2025-03-21 01:48:53,898 - lightrag - INFO - Process 3799387 KV writting 42 records to text_chunks
+2025-03-21 01:48:53,899 - lightrag - INFO - Process 3799387 KV writting 84 records to llm_response_cache
+2025-03-21 01:48:53,922 - lightrag - INFO - Writing graph with 273 nodes, 203 edges
+2025-03-21 01:48:53,930 - lightrag - INFO - All Insert done
+2025-03-21 01:48:53,931 - lightrag - INFO - Document processing pipeline completed
+2025-03-21 01:49:15,632 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:49:15,632 - lightrag - INFO - Process 3799387 KV writting 85 records to llm_response_cache
+2025-03-21 01:49:24,139 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:49:24,140 - lightrag - INFO - Process 3799387 buidling query context...
+2025-03-21 01:49:24,140 - lightrag - INFO - Query nodes: Characters, Plot, Conflict, top_k: 60, cosine: 0.2
+2025-03-21 01:49:24,187 - lightrag - INFO - Local query uses 60 entites, 109 relations, 3 chunks
+2025-03-21 01:49:25,008 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:49:25,008 - lightrag - INFO - Process 3799387 KV writting 87 records to llm_response_cache
+2025-03-21 01:49:38,785 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:49:38,785 - lightrag - INFO - Process 3799387 buidling query context...
+2025-03-21 01:49:38,785 - lightrag - INFO - Query edges: Themes, Storytelling, Narrative structure, top_k: 60, cosine: 0.2
+2025-03-21 01:49:38,819 - lightrag - INFO - Global query uses 52 entites, 60 relations, 3 chunks
+2025-03-21 01:50:01,561 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:50:01,561 - lightrag - INFO - Process 3799387 KV writting 89 records to llm_response_cache
+2025-03-21 01:50:10,514 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:50:10,514 - lightrag - INFO - Process 3799387 buidling query context...
+2025-03-21 01:50:10,514 - lightrag - INFO - Query nodes: Plot structure, Character development, Setting, Conflict resolution, top_k: 60, cosine: 0.2
+2025-03-21 01:50:10,542 - lightrag - INFO - Query edges: Themes, Narrative analysis, Storytelling, top_k: 60, cosine: 0.2
+2025-03-21 01:50:10,614 - lightrag - INFO - Global query uses 50 entites, 60 relations, 3 chunks
+2025-03-21 01:50:10,622 - lightrag - INFO - Local query uses 60 entites, 109 relations, 3 chunks
+2025-03-21 01:50:31,027 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-21 01:50:31,027 - lightrag - INFO - Process 3799387 KV writting 91 records to llm_response_cache
+2025-03-21 01:50:31,038 - lightrag - INFO - Storage Finalization completed!
+2025-03-25 10:18:59,402 - lightrag - INFO - Storage Finalization completed!
+2025-03-25 10:22:37,897 - lightrag - INFO - Storage Finalization completed!
+2025-03-25 10:28:40,678 - lightrag - INFO - Storage Finalization completed!
+2025-03-25 10:30:19,847 - lightrag - ERROR - Chunk-entity-relation at neo4j://localhost:7474 is not available
+2025-03-25 10:30:19,862 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-25 10:30:35,990 - lightrag - INFO - Chunk-entity-relation at neo4j://localhost:7687 not found. try to create specified database.
+2025-03-25 10:30:36,043 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-03-25 10:30:36,052 - lightrag - INFO - Connected to None at neo4j://localhost:7687
+2025-03-25 10:30:36,225 - lightrag - INFO - Process 1487388 KV load full_docs with 1 records
+2025-03-25 10:30:36,250 - lightrag - INFO - Process 1487388 KV load text_chunks with 42 records
+2025-03-25 10:30:36,255 - lightrag - INFO - Process 1487388 KV load llm_response_cache with 91 records
+2025-03-25 10:30:36,279 - lightrag - INFO - Process 1487388 doc status load doc_status with 1 records
+2025-03-25 10:30:58,863 - lightrag - INFO - Storage Initialization completed!
+2025-03-25 10:30:58,878 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-25 11:21:28,549 - lightrag - INFO - Chunk-entity-relation at neo4j://localhost:7687 not found. try to create specified database.
+2025-03-25 11:21:28,563 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-03-25 11:21:28,564 - lightrag - INFO - Connected to None at neo4j://localhost:7687
+2025-03-25 11:21:28,573 - lightrag - INFO - Process 1510444 KV load full_docs with 1 records
+2025-03-25 11:21:28,573 - lightrag - INFO - Process 1510444 KV load text_chunks with 42 records
+2025-03-25 11:21:28,578 - lightrag - INFO - Process 1510444 KV load llm_response_cache with 91 records
+2025-03-25 11:21:28,578 - lightrag - INFO - Process 1510444 doc status load doc_status with 1 records
+2025-03-25 11:22:01,766 - lightrag - INFO - Storage Initialization completed!
+2025-03-25 11:23:21,019 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-25 11:26:07,758 - lightrag - INFO - Chunk-entity-relation at neo4j://localhost:7687 not found. try to create specified database.
+2025-03-25 11:26:07,798 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-03-25 11:26:07,799 - lightrag - INFO - Connected to None at neo4j://localhost:7687
+2025-03-25 11:26:07,808 - lightrag - INFO - Process 1513195 KV load full_docs with 1 records
+2025-03-25 11:26:07,809 - lightrag - INFO - Process 1513195 KV load text_chunks with 42 records
+2025-03-25 11:26:07,814 - lightrag - INFO - Process 1513195 KV load llm_response_cache with 91 records
+2025-03-25 11:26:07,814 - lightrag - INFO - Process 1513195 doc status load doc_status with 1 records
+2025-03-25 11:26:17,910 - lightrag - INFO - Storage Initialization completed!
+2025-03-25 11:26:19,482 - lightrag - INFO - Creating a new event loop in main thread.
+2025-03-25 11:29:47,307 - lightrag - INFO - Chunk-entity-relation at neo4j://localhost:7687 not found. try to create specified database.
+2025-03-25 11:29:47,569 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-03-25 11:29:47,913 - lightrag - INFO - Connected to None at neo4j://localhost:7687
+2025-03-25 11:29:47,929 - lightrag - INFO - Process 1514838 KV load full_docs with 1 records
+2025-03-25 11:29:47,930 - lightrag - INFO - Process 1514838 KV load text_chunks with 42 records
+2025-03-25 11:29:47,934 - lightrag - INFO - Process 1514838 KV load llm_response_cache with 91 records
+2025-03-25 11:29:47,935 - lightrag - INFO - Process 1514838 doc status load doc_status with 1 records
+2025-03-25 11:29:50,217 - lightrag - INFO - Storage Initialization completed!
+2025-03-25 11:29:57,455 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-25 11:29:57,455 - lightrag - INFO - Process 1514838 buidling query context...
+2025-03-25 11:29:57,455 - lightrag - INFO - Query nodes: HI, top_k: 60, cosine: 0.2
+2025-03-25 11:30:00,075 - lightrag - INFO - Process 1514838 reloading entities due to update by another process
+2025-03-25 11:30:00,135 - lightrag - INFO - Query edges: Greetings, Interaction, top_k: 60, cosine: 0.2
+2025-03-25 11:30:00,203 - lightrag - INFO - Process 1514838 reloading relationships due to update by another process
+2025-03-25 11:30:00,797 - lightrag - WARNING - Some nodes are missing, maybe the storage is damaged
+2025-03-25 11:30:00,798 - lightrag - WARNING - No valid text units found
+2025-03-25 11:30:00,799 - lightrag - INFO - Local query uses 0 entites, 0 relations, 0 chunks
+2025-03-25 11:30:00,927 - lightrag - INFO - Storage Finalization completed!
+2025-03-25 11:32:28,447 - lightrag - INFO - Chunk-entity-relation at neo4j://localhost:7687 not found. try to create specified database.
+2025-03-25 11:32:28,451 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-03-25 11:32:28,452 - lightrag - INFO - Connected to None at neo4j://localhost:7687
+2025-03-25 11:32:28,461 - lightrag - INFO - Process 1515688 KV load full_docs with 1 records
+2025-03-25 11:32:28,461 - lightrag - INFO - Process 1515688 KV load text_chunks with 42 records
+2025-03-25 11:32:28,466 - lightrag - INFO - Process 1515688 KV load llm_response_cache with 91 records
+2025-03-25 11:32:28,466 - lightrag - INFO - Process 1515688 doc status load doc_status with 1 records
+2025-03-25 11:33:02,587 - lightrag - INFO - Storage Initialization completed!
+2025-03-25 11:33:07,746 - lightrag - INFO - Inserting 1 records to llm_response_cache
+2025-03-25 11:33:07,747 - lightrag - INFO - Process 1515688 buidling query context...
+2025-03-25 11:33:07,747 - lightrag - INFO - Query nodes: A Christmas Carol, Charles Dickens, top_k: 60, cosine: 0.2
+2025-03-25 11:33:07,792 - lightrag - INFO - Process 1515688 reloading entities due to update by another process
+2025-03-25 11:33:07,804 - lightrag - INFO - Query edges: Literature, Authorship, top_k: 60, cosine: 0.2
+2025-03-25 11:33:07,837 - lightrag - INFO - Process 1515688 reloading relationships due to update by another process
+2025-03-25 11:33:08,169 - lightrag - WARNING - Some nodes are missing, maybe the storage is damaged
+2025-03-25 11:33:08,170 - lightrag - WARNING - No valid text units found
+2025-03-25 11:33:08,173 - lightrag - INFO - Local query uses 0 entites, 0 relations, 0 chunks
+2025-03-25 11:33:08,230 - lightrag - INFO - Storage Finalization completed!
+2025-03-25 11:49:44,682 - lightrag - INFO - Chunk-entity-relation at neo4j://localhost:7687 not found. try to create specified database.
+2025-03-25 11:49:44,687 - lightrag - WARNING - This Neo4j instance does not support creating databases. Try to use Neo4j Desktop/Enterprise version or DozerDB instead. Fallback to use the default database.
+2025-03-25 11:49:44,688 - lightrag - INFO - Connected to None at neo4j://localhost:7687
+2025-03-25 11:49:44,701 - lightrag - INFO - Process 1522656 KV load full_docs with 1 records
+2025-03-25 11:49:44,702 - lightrag - INFO - Process 1522656 KV load text_chunks with 42 records
+2025-03-25 11:49:44,710 - lightrag - INFO - Process 1522656 KV load llm_response_cache with 91 records
+2025-03-25 11:49:44,711 - lightrag - INFO - Process 1522656 doc status load doc_status with 1 records
+2025-03-25 11:49:46,523 - lightrag - INFO - Storage Initialization completed!
+2025-03-25 11:49:46,523 - lightrag - INFO - Storage Finalization completed!
