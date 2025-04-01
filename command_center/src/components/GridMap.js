@@ -17,7 +17,7 @@ const HexGridMap = ({ onMapReady }) => {
       container: mapContainerRef.current,
       style: "mapbox://styles/ttchang323/cm8o8u964004g01rc7blv6mwh",
       center: [0, 0],
-      zoom: 2,
+      zoom: 4,
     });
 
     map.on("load", () => {
@@ -47,7 +47,7 @@ const HexGridMap = ({ onMapReady }) => {
     return () => map.remove();
   }, [onMapReady]);
 
-  return <div ref={mapContainerRef} style={{ height: "100vh", width: "100%" }} />;
+  return <div ref={mapContainerRef} style={{ height: "98.5vh", width: "100%" }} />;
 };
 
 // `createGrid` 函數用於生成 50km x 50km 的網格邊框
