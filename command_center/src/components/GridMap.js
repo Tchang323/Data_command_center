@@ -1,83 +1,95 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
+import { generateGrid } from "./createGrid";
+import FooterBar from "./FooterBar";
 
-// 設定你的 Mapbox Token
-mapboxgl.accessToken =
-  "pk.eyJ1IjoidHRjaGFuZzMyMyIsImEiOiJjbThvNDRlZXkwN29pMmtvc2pmcDYzeWRsIn0.MtakkAA8xSCgC67p2S1KRg";
+mapboxgl.accessToken = "pk.eyJ1IjoidHRjaGFuZzMyMyIsImEiOiJjbThvNDRlZXkwN29pMmtvc2pmcDYzeWRsIn0.MtakkAA8xSCgC67p2S1KRg";
 
-const HexGridMap = ({ onMapReady }) => {
+const HexGridMap = ({ onMapReady, mapStyle, setMapStyle }) => {
   const mapContainerRef = useRef(null);
   const mapRef = useRef(null);
+  const [interferenceSummary, setInterferenceSummary] = useState({});
+
+  // 計算干擾數據
+  const calculateInterferenceSummary = (gridData) => {
+    const interferenceZones = gridData.features.filter((f) => f.properties.hasInterference);
+    return { interference: interferenceZones.length };
+  };
 
   useEffect(() => {
     if (!mapContainerRef.current) return;
 
-    // 初始化地圖
-    const map = new mapboxgl.Map({
+    const styles = {
+      hex: "mapbox://styles/ttchang323/cm8o8u964004g01rc7blv6mwh",
+      dark: "mapbox://styles/mapbox/dark-v10",
+    };
+
+    // Define map options based on the current style
+    const mapOptions = {
       container: mapContainerRef.current,
-      style: "mapbox://styles/ttchang323/cm8o8u964004g01rc7blv6mwh",
+      style: styles[mapStyle],
       center: [0, 0],
-      zoom: 4,
-    });
+      zoom: mapStyle === "dark" ? 2 : 4,
+    };
+    
+    // Only apply bounds restrictions to the dark 2D map
+    if (mapStyle === "dark") {
+      // Define the max bounds for the map (slightly larger than the world)
+      const worldBounds = [
+        [-190, -85], // Southwest coordinates
+        [190, 85]    // Northeast coordinates
+      ];
+      
+      mapOptions.maxBounds = worldBounds;
+      mapOptions.renderWorldCopies = false;
+    }
+
+    const map = new mapboxgl.Map(mapOptions);
 
     map.on("load", () => {
-      const gridLines = createGrid(-180, -90, 180, 90, 50); // 50km x 50km 網格
+      const gridData = generateGrid(mapStyle, -180, -90, 180, 90, 50);
+      const summary = calculateInterferenceSummary(gridData);
+      setInterferenceSummary(summary);
 
-      // 添加網格層到地圖
       map.addSource("grid", {
         type: "geojson",
-        data: gridLines,
+        data: gridData,
       });
 
       map.addLayer({
         id: "grid-lines",
         type: "line",
         source: "grid",
+        paint: { "line-color": "#3A3737", "line-width": 0.8, "line-opacity": 0.8 },
+      });
+
+      map.addLayer({
+        id: "interference-zones",
+        type: "fill",
+        source: "grid",
         paint: {
-          "line-color": "#3A3737", // 深灰色
-          "line-width": 0.8,
-          "line-opacity": 0.8,
+          "fill-color": ["case", ["get", "hasInterference"], "#FFD700", "transparent"],
+          "fill-opacity": 0.6,
         },
       });
+
+      if (onMapReady) onMapReady(map);
     });
 
     mapRef.current = map;
-    if (onMapReady) onMapReady(map);
-
     return () => map.remove();
-  }, [onMapReady]);
+  }, [mapStyle, onMapReady]);
 
-  return <div ref={mapContainerRef} style={{ height: "98.5vh", width: "100%" }} />;
-};
-
-// `createGrid` 函數用於生成 50km x 50km 的網格邊框
-const createGrid = (minLng, minLat, maxLng, maxLat, gridSizeKm) => {
-  const grid = { type: "FeatureCollection", features: [] };
-
-  // 每 1 度緯度大約 111.32 公里
-  const latStep = gridSizeKm / 111.32; // 每 50km 對應的緯度步長
-  const lngStep = gridSizeKm / (111.32 * Math.cos((minLat + maxLat) / 2 * (Math.PI / 180))); // 每公里在經度上的度數，取中間緯度來計算
-
-  // 生成 50km x 50km 的網格邊框
-  for (let lat = minLat; lat < maxLat; lat += latStep) {
-    for (let lng = minLng; lng < maxLng; lng += lngStep) {
-      grid.features.push({
-        type: "Feature",
-        geometry: {
-          type: "LineString",
-          coordinates: [
-            [lng, lat], // 左下角
-            [lng + lngStep, lat], // 右下角
-            [lng + lngStep, lat + latStep], // 右上角
-            [lng, lat + latStep], // 左上角
-            [lng, lat], // 閉合
-          ],
-        },
-      });
-    }
-  }
-
-  return grid;
+  return (
+    <div className="map-container">
+      <div ref={mapContainerRef} className="mapbox-map" />
+      <FooterBar 
+        interferenceData={interferenceSummary} 
+        mapStyle={mapStyle} 
+        setMapStyle={setMapStyle} 
+      />
+    </div>
+  );
 };
 
 export default HexGridMap;

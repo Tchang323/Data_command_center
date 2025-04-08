@@ -12,6 +12,19 @@ code {
     monospace;
 }
 
+/* HexGridMap.css */
+.map-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.mapbox-map {
+  height: 98.5vh;
+  width: 100%;
+}
+
+
 /* FooterBar CSS */
 .footer-bar {
   display: grid;
@@ -61,7 +74,7 @@ code {
 }
 
 .footer-section:hover {
-  background: rgba(47, 77, 105, 0.4);
+  background: rgba(27, 44, 59, 0.4);
   transform: scale(1.01);
 }
 
@@ -78,6 +91,15 @@ code {
 .data-info {
   font-size: 14px;
   color: #39ffcc; /* 科技綠 */
+}
+
+.footer-section.data-info .data-item span {
+  font-size: 14px;
+  color: #ccdceb;
+}
+
+.footer-section.data-info .data-item span:first-child {
+  font-weight: bold;
 }
 
 .data-item {
@@ -127,7 +149,7 @@ code {
 }
 
 .chat-message {
-  max-width: 90%;
+  max-width: 70%;
   margin: 5px 0;
   padding: 8px 12px;
   border-radius: 12px;
@@ -148,16 +170,24 @@ code {
 }
 
 .chat-message.ai {
-  background-color: rgba(47, 77, 105, 0.7);
-  color: #39ffcc;
+  background-color: rgba(15, 32, 55, 0.85);
+  color: #e6e6e6;
   align-self: flex-start;
+  margin-right: auto;
+  text-align: left;
+  border-left: 2px solid #39ffcc;
+  box-shadow: 0 2px 12px rgba(57, 255, 204, 0.2);
+  backdrop-filter: blur(5px);
 }
 
 .chat-message.user {
-  background-color: rgba(57, 255, 204, 0.2);
+  background-color: rgba(30, 39, 46, 0.85);
   color: #e6e6e6;
   align-self: flex-end;
   text-align: right;
+  border-right: 2px solid #5cb3fd;
+  box-shadow: 0 2px 12px rgba(92, 179, 253, 0.2);
+  backdrop-filter: blur(5px);
 }
 
 .chat-input-area {
