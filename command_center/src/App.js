@@ -1,7 +1,8 @@
-import React, { useState, useRef }from "react";
+import React, { useState, useRef } from "react";
 import "./styles/App.css";
 import HexGridMap from "./components/GridMap";
 import FooterBar from "./components/FooterBar";
+import UpperBar from "./components/UpperBar";
 
 function App() {
   const mapRef = useRef(null);
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <div className="App">
+      <UpperBar />
       <header className="App-header">
         <HexGridMap onMapReady={handleMapReady} mapStyle={mapStyle} 
         setMapStyle={setMapStyle} />
